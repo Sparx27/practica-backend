@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LibreriaAPI</name>
+    </assembly>
+    <members>
+        <member name="M:LibreriaAPI.Controllers.PaisController.GetAll">
+            <summary>
+            Devuelve todos los Paises
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LibreriaAPI.Controllers.PaisController.GetById(System.Int32)">
+            <summary>
+            Buscar Pais por su id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LibreriaAPI.Controllers.PaisController.GetByNombre(System.String)">
+            <summary>
+            Permite buscar Pais por su nombre
+            </summary>
+            <param name="nombre"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LibreriaAPI.Controllers.PaisController.Post(Compartido.DTOs.PaisDTO)">
+            <summary>
+            Permite crear Pais
+            </summary>
+            <param name="paisDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LibreriaAPI.Controllers.PaisController.Delete(System.Int32)">
+            <summary>
+            Permite borrar Pais buscando por su id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LibreriaAPI.Controllers.PaisController.Update(Compartido.DTOs.PaisDTO)">
+            <summary>
+            Permite hacer update
+            </summary>
+            <param name="paisDTO"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
